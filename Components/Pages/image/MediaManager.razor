@@ -1,0 +1,11 @@
+﻿@page "/mediaMgr"
+@rendermode InteractiveServer
+@using Syncfusion.Blazor.ImageEditor
+<PageTitle>Image Editor</PageTitle>
+
+<br />
+<div id="ControlRegion">
+    <SfImageEditor Height="200px">
+        <ImageEditorEvents OnSelectionResizeStart="OnSelectionResizeStart"></ImageEditorEvents>
+    </SfImageEditor>
+</div>
